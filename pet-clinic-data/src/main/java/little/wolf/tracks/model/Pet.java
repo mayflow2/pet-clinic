@@ -1,4 +1,4 @@
-package little.wolf.tracks.petclinic.model;
+package little.wolf.tracks.model;
 
 import java.time.LocalDate;
 

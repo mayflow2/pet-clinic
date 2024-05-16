@@ -1,4 +1,4 @@
-package little.wolf.tracks.petclinic.model;
+package little.wolf.tracks.model;
 
 public class Person {
     private String firstName;

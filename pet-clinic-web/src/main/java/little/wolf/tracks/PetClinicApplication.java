@@ -1,4 +1,4 @@
-package little.wolf.tracks.petclinic;
+package little.wolf.tracks;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
