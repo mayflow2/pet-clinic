@@ -2,9 +2,11 @@ package little.wolf.tracks.services.map;
 
 import little.wolf.tracks.model.Owner;
 import little.wolf.tracks.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
     @Override
     public Set<Owner> findAll() {

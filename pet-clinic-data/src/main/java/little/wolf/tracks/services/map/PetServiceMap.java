@@ -2,9 +2,11 @@ package little.wolf.tracks.services.map;
 
 import little.wolf.tracks.model.Pet;
 import little.wolf.tracks.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
