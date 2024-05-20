@@ -1,12 +1,11 @@
 package little.wolf.tracks.services.map;
 
 import little.wolf.tracks.model.Vet;
-import little.wolf.tracks.services.CrudService;
+import little.wolf.tracks.services.VetService;
 
-import java.util.Collections;
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
