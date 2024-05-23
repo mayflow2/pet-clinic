@@ -4,7 +4,6 @@ import little.wolf.tracks.model.PetType;
 import little.wolf.tracks.services.PetTypeService;
 import org.springframework.stereotype.Service;
 
-import java.util.Collections;
 import java.util.Set;
 
 @Service
