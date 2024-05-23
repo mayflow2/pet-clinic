@@ -4,10 +4,11 @@ import little.wolf.tracks.model.Specialty;
 import little.wolf.tracks.model.Vet;
 import little.wolf.tracks.services.SpecialtyService;
 import little.wolf.tracks.services.VetService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
-
+@Profile({"default", "map"})
 @Service
 public class VetMapService extends AbstractMapService<Vet, Long> implements VetService {
     private final SpecialtyService specialtyService;

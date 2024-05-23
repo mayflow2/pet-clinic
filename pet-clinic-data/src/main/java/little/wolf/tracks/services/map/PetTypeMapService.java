@@ -2,10 +2,11 @@ package little.wolf.tracks.services.map;
 
 import little.wolf.tracks.model.PetType;
 import little.wolf.tracks.services.PetTypeService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
-
+@Profile({"default", "map"})
 @Service
 public class PetTypeMapService extends AbstractMapService<PetType, Long> implements PetTypeService {
     @Override

@@ -46,6 +46,7 @@ public class OwnerSDJpaService implements OwnerService {
 
     @Override
     public Owner save(Owner owner) {
+        System.out.println("###Saving Owner###");
         return ownerRepository.save(owner);
     }
 

@@ -5,10 +5,12 @@ import little.wolf.tracks.model.Pet;
 import little.wolf.tracks.services.OwnerService;
 import little.wolf.tracks.services.PetService;
 import little.wolf.tracks.services.PetTypeService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Profile({"default", "map"})
 @Service
 public class OwnerMapService extends AbstractMapService<Owner, Long> implements OwnerService {
     private final PetTypeService petTypeService;
