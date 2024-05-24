@@ -1,4 +1,4 @@
-package petclinic;
+package little.wolf.tracks;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
